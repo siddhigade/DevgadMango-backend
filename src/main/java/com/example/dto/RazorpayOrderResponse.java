@@ -4,7 +4,6 @@ package com.example.dto;
 import lombok.*;
 
 @Data
-@AllArgsConstructor
 public class RazorpayOrderResponse {
     private String razorpayOrderId;
     private Long amount;       // in paise
