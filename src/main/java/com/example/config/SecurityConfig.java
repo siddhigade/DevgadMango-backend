@@ -38,6 +38,8 @@ public class SecurityConfig {
                     session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
                     .requestMatchers(
+                    		"/",
+                            "/error",
                             "/api/auth/**",
                             "/api/products/**",
                             "/api/categories/**"
