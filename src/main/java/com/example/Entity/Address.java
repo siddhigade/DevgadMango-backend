@@ -10,8 +10,6 @@ import lombok.*;
 @Entity
 @Table(name = "addresses")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 public class Address {
 

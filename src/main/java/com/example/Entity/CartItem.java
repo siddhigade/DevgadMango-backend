@@ -10,8 +10,6 @@ import lombok.*;
 @Entity
 @Table(name = "cart_items")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class CartItem {

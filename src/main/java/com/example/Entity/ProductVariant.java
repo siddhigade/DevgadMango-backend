@@ -12,8 +12,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Entity
 @Table(name = "product_variants")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 public class ProductVariant {
 
